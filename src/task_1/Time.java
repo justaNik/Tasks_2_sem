@@ -60,7 +60,7 @@ public class Time {
         } else return valueOfTime2;
     }
 
-    public int[] untransform() {
+    private int[] untransform() {
         int time = getTime();
         int h, m, s;
         h = time / 3600;
