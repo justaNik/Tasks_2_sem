@@ -16,17 +16,18 @@ public class Task_1 {
         format2 - hh час mm минут ss секунд
          */
 
-        Time time = new Time(357);
-        /*
-        Time time2 = new Time("1:3:3");
-        System.out.println(time.getTime());
+        Time time = new Time(3577);
+
+        Time time2 = new Time("35:3:3");
+
+       /* System.out.println(time.getTime());
         System.out.println(time2.getTime());
         Time time3 = time2.addition("0:0:1");
         System.out.println(time3.getTime());
         Time time4 = time2.addition("0:0:1");
         System.out.println(time4.getTime());
 
-         */
+
 
 
 /*
@@ -37,7 +38,7 @@ public class Task_1 {
         DateTimeFormatter f = DateTimeFormatter.ofPattern("MMMM dd, yyyy, hh:mm:ss");
        */
 
-        System.out.println(time.format2());
+        System.out.println(time2.format2());
 
     }
 }
